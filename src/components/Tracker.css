@@ -1,0 +1,109 @@
+body{
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color:	#FFFFF0;
+    margin: 0 10px 0 10px;
+  }
+  
+input{
+    width: 50vw;
+    height: 3rem;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.401);
+
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 18px 16px 55px 11px rgba(0,0,0,0.1);
+    padding-left: 8px;
+    font-weight: 700;
+    cursor: black;
+    
+
+}
+input:active{
+    border: 1px solid transparent;
+
+}
+button{
+    margin-left: 2px;
+    background-color: rgb(205, 40, 40);
+    height: 3.2rem;
+    border-radius: 0 5px 5px 0;
+    width: 4rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 18px 16px 55px 11px rgba(0,0,0,0.1);
+}
+button:hover{
+    background-color:  rgb(205, 12, 12);
+    box-shadow: 18px 16px 55px 11px rgba(0,0,0,0.18)
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.info-section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 5px;
+    height: 5rem;
+    margin-bottom: 20px;
+    box-shadow: 18px 16px 55px 11px rgba(0,0,0,0.1);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(13, 18, 26, 0.315);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-section p{
+    border: 1px 0 0 0;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(205, 40, 40);
+}
+.info-section p span{
+    margin-left: 5px;
+    color: black;
+}
+
+@media (max-width :768px) {
+  .info-section{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 10rem;
+   gap: 0px;
+    
+  }
+  .info-section p{
+    margin: 0 10px;
+    font-size: 13px;
+
+  }
+  body {
+    overflow-y: visible;
+    height: 100%;
+  }
+}
