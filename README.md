@@ -1,8 +1,20 @@
-# React + Vite
+# IP Address Checker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+IP Address Checker is a React + Vite application that allows users to check their public IP address and view its geographical location on a map. The application uses an API to retrieve the IP address information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Fetches and displays the user's public IP address.
+- Shows the geographical location of the IP address on a map.
+
+## Demo
+
+Check out the live demo [here](<https://posigamerx.github.io/Ip-Address-Tracker/>).
+
+## Installation
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/your-username/ip-address-checker.git
